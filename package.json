@@ -1,0 +1,11 @@
+{
+  "name": "deepnode",
+  "module": "app.js",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
