@@ -18,3 +18,13 @@ function printA() {
 printA();
 
 console.log("Last line of the file");
+
+fs.readFile("file.txt", "utf-8", () => {
+  console.log("File Reading cb");
+});
+
+setTimeout(() => console.log("timer expired"), 0);
+
+setImmediate(() => {
+  console.log("setImmediate");
+});
